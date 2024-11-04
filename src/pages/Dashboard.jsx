@@ -108,7 +108,7 @@ function Dashboard() {
   
 
   return (
-    <div className="w-full p-0 grid lg:grid-cols-6 h-screen">
+    <div className="w-full p-0 m-0 grid lg:grid-cols-6 h-screen">
       <div className="col-span-1 lg:flex hidden bg-[#273c75] pt-10 flex-col h-screen ">
         <p className="w-full h-24 text-white transition-all duration-200 border-b hover:bg-[#487eb0] cursor-pointer p-3 flex items-center justify-center">
           Content 1
