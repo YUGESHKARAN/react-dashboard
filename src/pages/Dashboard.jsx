@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import CategoryAdmin from '../Components/CategoryAdmin';
-import SubcategoryAdmin from '../Components/SubcategoryAdmin';
+import CategoryAdmin from '../components/CategoryAdmin';
+import SubcategoryAdmin from '../components/SubcategoryAdmin';
 import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, ArcElement, PointElement, LineElement, Title, Tooltip, Legend } from 'chart.js';
-import BroilerGraph from '../Components/BroilerGraph';
-import CountryChickenGraph from '../Components/CountryChickenGraph';
-import EggGraph from '../Components/EggGraph';
-import BrownEgg from '../Components/BrwonEgg';
-import LiquidGraph from '../Components/LiquidGraph';
+import BroilerGraph from '../components/BroilerGraph';
+import CountryChickenGraph from '../components/CountryChickenGraph';
+import EggGraph from '../components/EggGraph';
+import BrownEgg from '../components/BrwonEgg';
+import LiquidGraph from '../components/LiquidGraph';
 
 // Register chart.js components
 ChartJS.register(CategoryScale, LinearScale, BarElement, ArcElement, PointElement, LineElement, Title, Tooltip, Legend);
